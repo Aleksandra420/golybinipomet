@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Голубиный налет</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<canvas id="canvas" width="800" height="480"></canvas>
+	</div>
+
+	<div class="container-flex" id="ready">
+		<div class="wrapper">
+			<h2 id="pomt">Голубиный налет</h2>
+			<button id="playbtn" class="btn">Играть</button>
+			<button id="instruction" class="instr">Обучение</button>
+			<div><p id="textinstr" class="trax">Вы  играете за птицу, на пути вам будут встречаться препятсвия в виде веток деревьев(старайтесь избегать их). 
+				Для набора очков собирайте червячков. при нажатии на пробел птица поднимается выше, ваша задача удеражть её в воздухе </p></div>
+			<button id="back" class="exit">Назад</button>
+
+		</div>
+	</div>
+
+	<div class="container-flex" id="over">
+		<div class="wrapper">
+			<h2 id="highscore">Рекорд : </h2>
+			<button id="restart" class="btn">Начать сначала</button>
+		</div>
+	</div>
+
+	<script src="js/Config.js"></script>
+	<script src="js/Background.js"></script>
+	<script src="js/Pigeon.js"></script>
+	<script src="js/Coin.js"></script>
+	<script src="js/Obstacle.js"></script>
+	<script src="js/Game.js"></script>
+	<script src="js/Main.js"></script>
+</body>
+</html>
